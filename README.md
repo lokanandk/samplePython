@@ -4,8 +4,8 @@
 
 ## Dependencies
 
->>=python-3.6.0\n
->>=numpy-1.14.0
+python ">=3.6.0"
+numpy ">=1.14.0"
 
 ## Usage:
 
