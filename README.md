@@ -63,5 +63,18 @@ python tubesInARack.py --rack_size 10 --tube_positions ../test/initpos.txt --mov
 			(9, 2)
 			(2, 8)
 ```			
+## Sample output
+
+```bash
+
+(3, 2)
+(5, 5)
+(9, 2)  removed
+(2, 8)  removed
+
+
+The output shown above has been saved in 'finaltubepositions.txt'
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
