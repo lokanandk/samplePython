@@ -1,35 +1,35 @@
 
 
-# TUBES IN A RACK
+## TUBES IN A RACK
 ------------------
-## This program performs move or remove operations and returns final positions of the tubes in the rack
+### This program performs move or remove operations and returns final positions of the tubes in the rack
 
-## Dependencies
+### Dependencies
 
 python v. 3.6.0+
 numpy v. 1.14.0+
 
-## Installation
+### Installation
 
 No installation is required. Clone the git repository, move tubesInARack.py to a directory in your PATH or add the cloned directory to your PATH. 
 
-## Usage:
+### Usage:
 ```bash
 tubesInARack.py [-h] --rack_size RACKSIZE [RACKSIZE ...]
                        --tube_positions FILE --moves FILE --remove FILE
 ```
 Output (the final tube positions in the rack) will saved in a text file named 'finaltubepositions.txt'
 
-## Example usage:
+### Example usage:
 (*Add the cloned github directory to your PATH*)
 
 ```bash
 python tubesInARack.py --rack_size 10 --tube_positions ../test/initpos.txt --moves ../test/moves.txt --remove ../test/remove.txt 
 
-## Optional arguments:
+### Optional arguments:
   -h, --help            
 
-## Required arguments:
+### Required arguments:
   --rack_size RACKSIZE [RACKSIZE ...]
                         Size of the square rack: please provide the capacity
                         of the rack in a single row or column).
@@ -63,7 +63,7 @@ python tubesInARack.py --rack_size 10 --tube_positions ../test/initpos.txt --mov
 			(9, 2)
 			(2, 8)
 ```			
-## Sample output
+### Sample output
 
 ```bash
 
@@ -76,5 +76,5 @@ python tubesInARack.py --rack_size 10 --tube_positions ../test/initpos.txt --mov
 The output shown above has been saved in 'finaltubepositions.txt'
 ```
 
-## License
+### License
 [MIT](https://choosealicense.com/licenses/mit/)
